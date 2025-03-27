@@ -9,6 +9,9 @@
 Abstract--Pedestrian trajectory prediction is challenging due to ambiguous walking intents and complex interactions in non-Euclidean spaces among multiple agents. Recently, Transformers have made significant progress in pedestrian trajectory prediction. Their success is primarily attributed to the cross-stacking of Multi-Head Self-attention (MHA) mechanisms. However, self-attention and most of its variants heavily rely on dot product operations in Euclidean space, which are insufficient for capturing the non-Euclidean structures of pedestrian interactions.To address this issue, we propose a hybrid Transformer structure with a gating network, called FuseFormer. FuseFormer introduces Geodesic Self-Attention (GSA) alongside MHA to capture the non-Euclidean features in pedestrian interactions and adaptively fuse these features with learnable weights 
 through the gating network. Additionally, to enhance the temporal dependency of the neural network, we apply Neural Ordinary Differential Equations in the decoder to model the continuous-time dynamics oftrajectories. We demonstrate that FuseFormer achieves state-of-the-art performance on pedestrian trajectory prediction datasets, including ETH/UCY and SDD. Moreover, we conduct extensive ablation studies to validate the effectiveness of our proposed method. 
 
+## 论文进度
+![image](https://github.com/user-attachments/assets/f43d0bcb-e966-4d92-bfb3-b0358d4fd1da)
+
 ## 🚀 Features
 - MANIFOLD
 - GSA(Geodesic Self-Attention)
