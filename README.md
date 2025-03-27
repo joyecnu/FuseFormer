@@ -1,4 +1,4 @@
-# Project Name
+# Fuseformer:A Manifold Metric Fusing Attention for Pedestrian Trajectory Prediction
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
@@ -6,19 +6,20 @@
 
 ## 📌 Introduction
 
-A brief description of your project. Explain what it does, why it exists, and how it benefits users.
+Abstract--Pedestrian trajectory prediction is challenging due to ambiguous walking intents and complex interactions in non-Euclidean spaces among multiple agents. Recently, Transformers have made significant progress in pedestrian trajectory prediction. Their success is primarily attributed to the cross-stacking of Multi-Head Self-attention (MHA) mechanisms. However, self-attention and most of its variants heavily rely on dot product operations in Euclidean space, which are insufficient for capturing the non-Euclidean structures of pedestrian interactions.To address this issue, we propose a hybrid Transformer structure with a gating network, called FuseFormer. FuseFormer introduces Geodesic Self-Attention (GSA) alongside MHA to capture the non-Euclidean features in pedestrian interactions and adaptively fuse these features with learnable weights 
+through the gating network. Additionally, to enhance the temporal dependency of the neural network, we apply Neural Ordinary Differential Equations in the decoder to model the continuous-time dynamics oftrajectories. We demonstrate that FuseFormer achieves state-of-the-art performance on pedestrian trajectory prediction datasets, including ETH/UCY and SDD. Moreover, we conduct extensive ablation studies to validate the effectiveness of our proposed method. 
 
 ## 🚀 Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Feature MANIFOLD
+- Feature GSA
+- Feature NEURAL ode
 
 ## 🛠 Installation
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/joyecnu/Fuseformer.git
+cd Fuseformer
 
 # Install dependencies
 pip install -r requirements.txt
@@ -28,17 +29,9 @@ pip install -r requirements.txt
 
 ```sh
 # Example command to run the project
-python main.py --arg value
+python train.py 
 ```
 
-Example usage in code:
-```python
-from your_project import YourModule
-
-model = YourModule()
-output = model.predict(input_data)
-print(output)
-```
 
 ## 📝 Contributing
 
@@ -56,12 +49,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 If you have any questions, feel free to contact:
-- **Author Name** - email@example.com
-- GitHub: [your-username](https://github.com/your-username)
+- **Yi Zou** - yizdudub@outlook.com
+Outlook.com
+- GitHub: [joyecnu](https://github.com/joyecnu)
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Yi Zou]
 
 
 
