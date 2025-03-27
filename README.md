@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![Contributors](https://img.shields.io/github/contributors/your-repo)
+![Contributors](https://img.shields.io/github/contributors/joyecnu)
 
 ## 📌 Introduction
 
