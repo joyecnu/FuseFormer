@@ -10,9 +10,9 @@ Abstract--Pedestrian trajectory prediction is challenging due to ambiguous walki
 through the gating network. Additionally, to enhance the temporal dependency of the neural network, we apply Neural Ordinary Differential Equations in the decoder to model the continuous-time dynamics oftrajectories. We demonstrate that FuseFormer achieves state-of-the-art performance on pedestrian trajectory prediction datasets, including ETH/UCY and SDD. Moreover, we conduct extensive ablation studies to validate the effectiveness of our proposed method. 
 
 ## 🚀 Features
-- Feature MANIFOLD
-- Feature GSA
-- Feature NEURAL ode
+- MANIFOLD
+- GSA(Geodesic Self-Attention)
+- NEURAL ODE
 
 ## 🛠 Installation
 
