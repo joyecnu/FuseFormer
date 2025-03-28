@@ -1,4 +1,4 @@
-# Fuseformer:A Manifold Metric Fusing Attention for Pedestrian Trajectory Prediction
+# FuseFormer:A Manifold Metric Fusing Attention for Pedestrian Trajectory Prediction
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
