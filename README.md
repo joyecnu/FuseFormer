@@ -10,6 +10,8 @@ Abstract--Pedestrian trajectory prediction is challenging due to ambiguous walki
 through the gating network. Additionally, to enhance the temporal dependency of the neural network, we apply Neural Ordinary Differential Equations in the decoder to model the continuous-time dynamics oftrajectories. We demonstrate that FuseFormer achieves state-of-the-art performance on pedestrian trajectory prediction datasets, including ETH/UCY and SDD. Moreover, we conduct extensive ablation studies to validate the effectiveness of our proposed method. 
 
 ## 论文进度
+![image](https://github.com/user-attachments/assets/fef69065-5aeb-487d-90cb-3ab3c8ed1946)
+
 ![image](https://github.com/user-attachments/assets/f43d0bcb-e966-4d92-bfb3-b0358d4fd1da)
 
 ## 🚀 Features
