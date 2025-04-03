@@ -11,6 +11,8 @@ through the gating network. Additionally, to enhance the temporal dependency of 
 
 ## 论文进度
 Accept 已接受 more details see the accept_file.pdf in the content
+![image](https://github.com/user-attachments/assets/d7dbdc9f-6490-4bb1-bdcd-493f868533a1)
+
 ![image](https://github.com/user-attachments/assets/fef69065-5aeb-487d-90cb-3ab3c8ed1946)
 
 ![image](https://github.com/user-attachments/assets/f43d0bcb-e966-4d92-bfb3-b0358d4fd1da)
